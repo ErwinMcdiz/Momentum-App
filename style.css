@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker';
+    background: url('mcdo\ tambayan.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.app {
+    text-align: center;
+    margin-top: 50px;
+    background-color: (0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white
+}
+
+.greeting, .name, .focus {
+    margin-bottom: 30px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 2em;
+}
+
+#selected-focus {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+#quote {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2a9c44;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e1e1d1;
+}

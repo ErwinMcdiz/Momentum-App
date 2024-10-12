@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- Greeting section -->
+        <div class="greeting">
+            <h1 id="greeting">Good Morning!</h1>
+        </div>
+
+        <!-- Name input section -->
+        <div class="name">
+            <input type="text" id="nameInput" placeholder="Enter name here">
+            <button id="submitNameButton">Submit Name</button>
+        </div>
+
+        <!-- Focus input section -->
+        <div class="focus">
+            <h3>Today's Focus:</h3>
+            <input type="text" id="focusInput" placeholder="Enter your focus for today">
+            <button id="submitFocusButton">Submit Focus</button>
+            <p>Your focus: <span id="focus">No focus set</span></p>
+        </div>
+
+        <!-- Quote section -->
+        <div class="quote">
+            <p id="quote"></p>
+            <input type="text" id="quoteInput" placeholder="Enter your quote for the day">
+            <button id="submitQuoteButton">Submit Quote</button>
+        </div>
+
+        <!-- Time and Date section -->
+        <div class="time">
+            <h1 id="time"></h1>
+            <p id="date"></p>
+        </div>
+
+        <!-- Quote section -->
+        <div class="quote">
+            <p id="quote"></p>
+        </div>
+
+        <!-- To-Do List section -->
+         <h2>To-do List</h2>
+        <input type="text" id="taskInput" placeholder="Add new task">
+  <button id="addButton">Add</button>
+
+  <div id="taskList"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
